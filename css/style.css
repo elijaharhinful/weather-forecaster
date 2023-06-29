@@ -1,26 +1,89 @@
-*{
-    font-family:Arial, Helvetica, sans-serif;
+* {
+  margin: 0;
+  box-sizing: border-box;
 }
 body {
-    margin: 0;
-    text-align: center;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(63, 125, 242);
 }
 
-header{
-    background-image: url("../images/banner.jpg");
-    text-align: center;
-    background-position: center;
-    height: 16rem;
-    margin: 0;
+header {
+  background-image: url("../images/banner.jpg");
+  text-align: center;
+  background-position: center;
+  height: 16rem;
+  margin: 0;
 }
 
-main{
-    margin: 0;
-    background-color: cornflowerblue;
+
+.top-section{
+    padding: 4rem 0 2rem 0;
+    text-shadow: 0.1rem 0.1rem 0.4rem black;
+    color: white;
 }
 
-h1{
+.top-section h1 {
     color: yellow;
     font-size: 3rem;
-    text-shadow: 0.2rem 0.2rem 0.3rem black;
+    margin-bottom: 2rem;
+  }
+
+  .top-section h2{
+    padding-bottom: 2.2rem;
+  }
+
+  .top-section h5{
+    padding-bottom: 2rem;
+    color: lightgray;
+    word-spacing: 0.3rem;
+  }
+
+  .top-section h5 span{
+    text-shadow:none;
+    border: 2px solid lightgray;
+    padding: 0.3rem;
+    border-radius: 8px;
+  }
+
+.card-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.card {
+  color: rgb(255, 255, 137);
+  text-shadow: 0.1rem 0.1rem 0.4rem black;
+}
+
+.card-title {
+  background-color: rgb(3, 152, 239);
+  padding: 1rem 2rem;
+  border-radius: 0.5rem 0.5rem 0 0;
+}
+
+.card-title h3{
+    padding: 1rem;
+}
+
+.card-details {
+  background-color: darkblue;
+  padding-bottom: 1.5rem;
+}
+
+.card-details h3{
+    color: white;
+    padding: 2rem;
+}
+
+footer{
+    padding: 4rem 0rem;
+    text-shadow: 0.1rem 0.1rem 0.4rem black;
+    color: lightgray;
+}
+
+footer img {
+    padding: 2rem 0;
+    width: 100%;
 }
